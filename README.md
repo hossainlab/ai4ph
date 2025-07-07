@@ -1,4 +1,6 @@
 # AI for Public Health (AI4PH)
+**Micro-Credentials Course by [Daffodil International University](https://daffodilvarsity.edu.bd/)**
+
 
 **Course Code:** MC11001  
 **Instructor:** Md. Jubayer Hossain  
