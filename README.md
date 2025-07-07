@@ -1,7 +1,7 @@
-# AI for Public Health (AI4PH)
-**Micro-Credentials Course by [Daffodil International University](https://daffodilvarsity.edu.bd/)**
 ![](https://github.com/hossainlab/ai4ph/blob/main/AI4PH.png)
 ---
+# AI for Public Health (AI4PH)
+**Micro-Credentials Course by [Daffodil International University](https://daffodilvarsity.edu.bd/)**
 
 | Field               | Details                                                                                                                                    |
 |:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
