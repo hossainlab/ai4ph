@@ -2,7 +2,6 @@
 **Micro-Credentials Course by [Daffodil International University](https://daffodilvarsity.edu.bd/)**
 ---
 
- Field               | Details                                                                                                                                    |
 |:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | Course Title        | AI for Public Health (AI4PH)                                                                                                               |
 | Course Code         | MC11001                                                                                                                                   |
