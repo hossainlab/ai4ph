@@ -2,13 +2,13 @@
 **Micro-Credentials Course by [Daffodil International University](https://daffodilvarsity.edu.bd/)**
 ---
 
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | Course Title        | AI for Public Health (AI4PH)                                                                                                               |
 | Course Code         | MC11001                                                                                                                                   |
 | Instructor          | Md. Jubayer Hossain                                                                                                                       |
 | Email               | contact.jubayerhossain@gmail.com                                                                                                          |
 | Target Audience     | Public health students, health professionals, researchers, and graduates interested in health data science or digital health             |
 | Learning Objectives | Gain Python and AI skills to analyze public health data, apply ML/DL models, and solve real-world health challenges in low-resource settings |
+
 
 ---
 
