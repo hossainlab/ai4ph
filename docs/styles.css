@@ -643,6 +643,110 @@ body {
     display: block;
 }
 
+/* Sponsor Styles */
+.sponsor-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #e2e8f0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-card.platinum {
+    border-color: #e5e7eb;
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+}
+
+.sponsor-card.platinum:hover {
+    border-color: #d1d5db;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.sponsor-card.gold {
+    border-color: #fbbf24;
+    background: linear-gradient(135deg, #fffbeb 0%, #ffffff 100%);
+}
+
+.sponsor-card.gold:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 10px 30px rgba(251, 191, 36, 0.2);
+}
+
+.sponsor-card.silver {
+    border-color: #9ca3af;
+    background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+}
+
+.sponsor-card.silver:hover {
+    border-color: #6b7280;
+    box-shadow: 0 8px 25px rgba(156, 163, 175, 0.2);
+}
+
+.sponsor-logo {
+    width: 80px;
+    height: 80px;
+    background: #2563eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.sponsor-logo.small {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sponsor-card h3 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sponsor-card h4 {
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.partner-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: #2563eb;
+}
+
+.partner-card h5 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
