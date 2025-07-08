@@ -367,15 +367,14 @@ body {
 }
 
 /* Hosting Page */
-.hosting-hero {
-    margin-top: 70px;
+
+
+.hosting-form {
     padding: 4rem 0;
-    background: linear-gradient(135deg, #4a90e2 0%, #50e3c2 100%);
-    color: white;
     text-align: center;
 }
 
-.hosting-form, .past-hosts {
+.past-hosts {
     padding: 4rem 0;
 }
 
