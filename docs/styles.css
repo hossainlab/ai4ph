@@ -101,6 +101,69 @@ body {
     transition: 0.3s;
 }
 
+/* Testimonial Section */
+#testimonial {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#testimonial h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+#testimonial .testimonial-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+#testimonial .testimonial-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 25px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#testimonial .testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+#testimonial .testimonial-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #a3c9a8;
+}
+#testimonial .testimonial-text {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+#testimonial .testimonial-name {
+    color: #2a5d34;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#testimonial .testimonial-role {
+    color: #7a7a7a;
+    font-size: 0.9rem;
+}
+
 /* Hero Section */
 .hero {
     margin-top: 70px;
@@ -301,6 +364,65 @@ body {
     color: #cbd5e1;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* Hosting Page */
+.hosting-hero {
+    margin-top: 70px;
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #4a90e2 0%, #50e3c2 100%);
+    color: white;
+    text-align: center;
+}
+
+.hosting-form, .past-hosts {
+    padding: 4rem 0;
+}
+
+.google-form-container {
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hosts-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.host-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.host-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.host-item h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.host-gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.host-gallery-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
 }
 
 /* Footer */
