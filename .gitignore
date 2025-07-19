@@ -7,7 +7,7 @@ __pycache__/
 test/
 # .gitignore
 .venv/
-data/*/dataset_download.ipynb
+# data/*/dataset_download.ipynb
 
 # C extensions
 *.so
