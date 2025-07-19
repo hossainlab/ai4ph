@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Testing file
+test/
+# .gitignore
+.venv/
+data/*/dataset_download.ipynb
+
 # C extensions
 *.so
 
